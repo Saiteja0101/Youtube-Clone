@@ -159,7 +159,9 @@ body {
     transition: background-color 150ms;
     overflow: hidden;
 }
-
+.category:hover{
+    background-color: #555;
+}
 .category:active {
     background-color: #606060;
     color: #fff;
@@ -190,6 +192,9 @@ body {
     color: #fff;
     background-color: #000;
     align-items: flex-start;
+}
+.menu_item:hover{
+    background-color: #555;
 }
 .menu_section {
     word-wrap: none;
@@ -254,10 +259,18 @@ body {
     align-items: center;
     gap: 1.5rem;
 
-    .menu_channel_icon {
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        background-color: #AAA;
-    }
+}
+.bell:hover{
+    background-color: #555;
+    border-radius: 50%;
+}
+.video:hover{
+    background-color: #555;
+    border-radius: 30%;
+}
+.menu_channel_icon {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #AAA;
 }
